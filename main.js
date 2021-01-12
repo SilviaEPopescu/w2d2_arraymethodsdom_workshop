@@ -52,6 +52,14 @@ console.log(answer)
    
 console.log(answerTwo);
 
+let answerthree =answerTwo.forEach(
+  function (wordthree) {
+  return wordthree.document.createElement("li")
+}
+)
+
+//function
+document.createElement
 
 //👉 Your code here!
 

@@ -44,6 +44,13 @@ let answer =things.filter(
 
 console.log(answer)
 
+//
+  let answerTwo =answer.map(
+   function (wordTwo) {
+   return wordTwo.charAt(0).toUpperCase() + wordTwo.slice(1)
+   })
+   
+console.log(answerTwo);
 
 
 //👉 Your code here!
